@@ -1,0 +1,47 @@
+1. What is the difference between a Set and Dictionary?
+Unique Elements:
+Sets contain only unique elements, whereas dictionaries contain key-value pairs, and the keys must be unique within a dictionary.
+Ordering:
+Sets are unordered collections, meaning they do not maintain the order of elements, while dictionaries are also unordered, but since Python 3.7, dictionaries maintain the insertion order of elements.
+Indexing:
+Sets do not support indexing or slicing because they are unordered collections, while dictionaries support indexing and slicing using keys.
+Purpose:
+Sets are typically used to store unique elements and perform set operations, while dictionaries are used to store data in a structured way, associating keys with values for efficient retrieval.
+
+2. What is List Comprehension? Give an Example.
+List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.
+List comprehension is a concise and powerful way to create new lists based on existing iterables like lists, strings, or dictionaries.
+It offers a single-line expression that combines looping, filtering, and transformation into a more readable and efficient form compared to traditional for loops.
+
+new_list = [expression for item in iterable if condition]
+expression: The operation or transformation to apply to each item in the iterable.
+item: The variable representing each item in the iterable.
+iterable: The existing iterable (e.g., list, tuple, range) from which to create the new list.
+condition (optional): A condition that filters the items. Only items for which the condition evaluates to True are included in the new list.
+
+Example:
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+even_numbers = [number for number in numbers if number % 2 == 0]
+print(even_numbers) 
+Output: [2, 4, 6, 8, 10]
+
+
+3. What is a lambda function? Explain it's filter, map and reduce() methods. 
+Lambda function is a small anonymous function defined using the lambda keyword. It allows you to create a function without a formal name. 
+Lambda functions can take any number of arguments but can only have one expression. 
+They are particularly useful for creating quick, throwaway functions or for passing as arguments to higher-order functions like map(), filter(), and sorted().
+
+
+4. Why we use pass, break and continue keywords, explain each with examples
+
+5. What is the difference between *args and **args? 
+
+6. Why we use indentation in Python?
+
+7. Explain range function with 3 different examples? 
+
+8.  Is Tuple Comprehension? If yes, how, and if not why?
+
+9. How to delete a file using Python?
+
+10. What is slicing in Python ? How it works explain with 2 examples?
